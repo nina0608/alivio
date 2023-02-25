@@ -1,0 +1,431 @@
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("/Lato-Bold.ttf");
+}
+
+menu a{
+    text-decoration: none;
+    margin-left: 72px;
+    font-size: 20px;
+    color: #292929;
+}
+.al{
+    margin-left: 200px;
+    font-weight: 900;
+    color: #01996D;
+    margin-right: 100px
+    ;
+}
+.sign{
+    margin-left: 300px;
+}
+menu button{
+margin-left: 40px;
+background: #01996D;
+border: none;
+color: #FFF;
+padding-top: 13px;
+padding-bottom: 13px;
+padding-left: 50px;
+padding-right: 50px;
+font-size: 20px;
+
+}
+img{
+    width: 1900px;
+}
+.bottom-left {
+    position: absolute;
+    width: 440px;
+height: 148px;
+left: 120px;
+top: 261px;    
+}
+h1{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 74px;
+color: #01996D;
+}
+p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+color: #484848;
+}
+.bottom-left button{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 50px;
+gap: 30px;
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+color: #FFF;
+margin-top: 30px;
+}
+.work{
+margin-left: 120px;
+margin-top: 78px;
+font-style: normal;
+position: absolute;
+line-height: 1px;
+}
+h4{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 550;
+font-size: 24px;
+color: #424242;
+}
+h2{
+    font-family: Georgia;
+font-size: 50px;
+font-weight: 700;
+line-height: 79px;
+letter-spacing: 0em;
+text-align: left;
+color: #01996D;
+}
+.alivio{
+    position: absolute;
+width: 671px;
+height: 269px;
+left: 995px;
+top: 1208px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+}
+.one{
+    position: absolute;
+width: 157px;
+height: 225px;
+left: 170px;
+top: 1500px;
+color: rgba(1, 153, 109, 0.2);
+height: 225px;
+width: 157px;
+}
+.word1{
+    position: absolute;
+left: 20px;
+right: 71.67%;
+top: 1510px;
+bottom: 69.11%;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 150%;
+/* identical to box height, or 45px */
+
+text-align: center;
+
+color: #000000;
+}
+
+.card h1:before{
+    counter-increment: section;
+    content: "0" counter(section);
+    font-size: 8rem;
+    color: #01996D33;
+    position: absolute;
+    left: -3rem;
+    top: -4rem;
+    z-index: -1;
+    font-family: "Georgia";
+}
+body {
+    
+    counter-reset: section;
+  }
+
+
+.p1{
+    position: absolute;
+width: 382px;
+height: 150px;
+left: 120px;
+top: 1600px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+text-align: left;
+}
+.card-1 img{
+    position: absolute;
+width: 390px;
+height: 480px;
+left: 120px;
+top: 1850px;
+background: url(.jpg), #C4C4C4;
+border-radius: 12px;
+}
+
+.card{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 150px;
+line-height: 150%;
+/* identical to box height, or 225px */
+text-align: center;
+}
+.one h1:before{
+    font-size: 30rem;
+}
+.two{
+    position: absolute;
+width: 176px;
+height: 225px;
+left: 750px;
+top: 1800px;
+color: rgba(1, 153, 109, 0.2);
+}
+.word2{
+position: absolute;
+left: 720px;
+right: 40%;
+top: 1810px;
+bottom: 63.48%;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 150%;
+/* identical to box height, or 45px */
+text-align: center;
+color: #000000;
+
+}
+.p2{
+position: absolute;
+width: 392px;
+height: 90px;
+left: 650px;
+top: 1900px;
+text-align: left;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+margin-left: 40px;
+}
+.card-2 img{
+    position: absolute;
+width: 390px;
+height: 492px;
+left: 690px;
+top: 2050px;
+background: url(1056_2.png);
+border-radius: 12px;
+}
+.three{
+    position: absolute;
+width: 175px;
+height: 225px;
+left: 1300px;
+top: 1600px;
+color: rgba(1, 153, 109, 0.2);
+}
+.word3{
+    position: absolute;
+left: 1380px;
+right: 22.92%;
+top: 1610px;
+bottom: 68.05%;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 150%;
+/* identical to box height, or 45px */
+text-align: center;
+color: #000000;
+}
+.p3{
+text-align: left;
+position: absolute;
+width: 441px;
+height: 90px;
+left: 1247px;
+top: 1700px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+color: #424242;
+}
+.card-3 img{
+    position: absolute;
+width: 390px;
+height: 492px;
+left: 1250px;
+top: 1850px;
+background: #C4C4C4;
+border-radius: 12px;
+}
+.container-1{
+    position: absolute;
+width: 1920px;
+height: 922px;
+left: 0px;
+top: 2587px;
+background: #245852;
+}
+.h2{
+    color: #FFF;
+    margin-left: 45px;
+    margin-top: 300px;
+    font-family:Georgia;
+}
+.paragraf{
+top: 1000px;
+color: #FFF;
+font-family: "Lato";
+margin-left: 45px;
+}
+.btn2{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 50px;
+gap: 30px;
+position: absolute;
+width: 240px;
+height: 65px;
+left: 45px;
+margin-top: 2000px;
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+color: #FFF;
+bottom: 270px;
+font-size: 16px;
+}
+.container-1 img{
+width: 895.84px;
+height: 516.11px;
+left: 818px;
+top: 2816px;
+bottom: 300px;
+background: rgba(0, 0, 0, 0.2);
+border-radius: 16.3326px;
+}
+.video{
+    margin-left: 800px;
+    margin-top: -350px;
+}
+.container-2 img{
+    position: absolute;
+width: 700px;
+height: 641.05px;
+margin-left: 300px;
+top: 3700.3px;
+background: url(court-cook-TSZo17r3m0s-unsplash-removebg.png);
+border-radius: 18.1125px;
+}
+.container-3 img{
+    position: absolute;
+width: 638.46px;
+height: 573.26px;
+left: 335.68px;
+top: 3629px;
+}
+.btn3{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 50px;
+gap: 30px;
+position: absolute;
+width: 227px;
+height: 65px;
+left: 1060px;
+top: 4010px;
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+color: #FFFFFF;
+}
+.heading4{
+position: absolute;
+width: 136px;
+height: 39px;
+left: 1061px;
+top: 3629px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 157%;
+/* or 39px */
+color: #424242;
+}
+div .container-3 p{
+    position: absolute;
+width: 530px;
+height: 81px;
+left: 1061px;
+top: 3865px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+color: #484848;
+
+}
+.heading2{
+    position: absolute;
+width: 584px;
+height: 158px;
+left: 1061px;
+top: 3678px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+color: #01996D;
+}
+.container-4{
+    position: absolute;
+width: 1920px;
+height: 654px;
+left: 0px;
+top: 4445px;
+background: #245852;
+}
+.list li{
+    list-style-type:none;
+    margin-left: 350px;
+    color: #FFF;
+    margin-top: 95px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ 
